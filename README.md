@@ -1,0 +1,2 @@
+# 2026_NLP_Course_Project_Detecting_Persuasion_UKRParlTexts
+Course project on Detecting and Classifying Persuasion Techniques in Ukrainian Parlamentary Texts
