@@ -1,5 +1,52 @@
-.venv/
+# --- Secrets ---
 .env
+.env.*
+!.env.example
+
+# --- Python ---
 __pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
 .cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Models / training outputs ---
+results/
+wandb/
+lightning_logs/
 *.ckpt
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+*.code-workspace
+.history/
